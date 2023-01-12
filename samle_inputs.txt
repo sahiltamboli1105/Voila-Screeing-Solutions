@@ -1,0 +1,23 @@
+Here are some test cases that I tested on the code that I written.
+
+Test Case 1:
+let arr = [2, 1, 2, 3, 1];
+
+Output: 2
+
+Test Case 2:
+let arr = [1, 1, 0, 1, 0, 0, 0, 0, 1];
+Output:-1
+
+
+Test Case 3:
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+Output:0
+
+Test Case 4:
+let arr = [5,5,5,5,5,5,5,5,5];
+Output:8
+
+Test Case 5:
+let arr = [1, 6, 3, 4, 5, 0, 0, 0, 6];
+Output:3
