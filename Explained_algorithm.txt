@@ -1,7 +1,0 @@
-This function takes in an array of integers representing the units of fuel available in the plane at each airport. It starts by initializing the number of planes to 0 and fuel to the first element of the array. It then creates a while loop that continues iterating as long as the current index i is less than the length of the array.
-
-At each iteration, it checks if the current fuel is enough to reach the current airport. If it is, it subtracts 1 unit of fuel to reach the next airport and adds the fuel at the current airport to the current fuel. If it isn't, it increments the number of planes by 1 and sets the current fuel to the fuel at the current airport and increments the index.
-
-After the while loop, it checks if the last airport has been reached or not, if not, it returns -1, otherwise it returns the number of planes needed to reach the final airport.
-
-This implementation also ensures that the planes will always have the minimum fuel required to reach the next airport.
